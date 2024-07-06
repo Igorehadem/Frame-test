@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enhanced Poll Frame</title>
+    <meta property="og:title" content="Enhanced Poll Frame">
+    <meta property="og:description" content="A simple poll frame for Warpcast.">
+    <meta property="og:image" content="https://yourdomain.com/path/to/image.jpg">
+    <meta property="og:url" content="https://yourdomain.com/path/to/frame.html">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -58,10 +62,12 @@
 </head>
 <body>
     <div class="poll-container">
-        <div class="poll-question">GM or not GM?</div>
+        <div class="poll-question">What's your favorite color?</div>
         <div class="poll-options">
-          <label><input type="radio" name="color" value="GM"> GM</label>
-          <label><input type="radio" name="color" value="Not GM"> Not GM</label>
+            <label><input type="radio" name="color" value="Red"> Red</label>
+            <label><input type="radio" name="color" value="Blue"> Blue</label>
+            <label><input type="radio" name="color" value="Green"> Green</label>
+            <label><input type="radio" name="color" value="Yellow"> Yellow</label>
         </div>
         <button class="submit-button" onclick="submitPoll()">Submit</button>
         <div class="results" id="results"></div>
