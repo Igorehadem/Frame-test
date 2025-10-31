@@ -1,3 +1,3 @@
-Should be updated
+# Frame Test
 
-Nothing know about workflow
+Example frame used to verify rendering and navigation behavior.
